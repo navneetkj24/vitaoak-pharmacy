@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VitaOak Pharmacy</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #2E8B57;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #3CB371;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #2E8B57;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #2E8B57;
+      color: white;
+      margin-top: 40px;
+    }
+    .services, .contact {
+      margin-top: 20px;
+    }
+    .services ul {
+      list-style: none;
+      padding: 0;
+    }
+    .services li {
+      margin-bottom: 10px;
+      padding-left: 20px;
+      position: relative;
+    }
+    .services li::before {
+      content: "💊";
+      position: absolute;
+      left: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>VitaOak Pharmacy</h1>
+    <p>Your trusted healthcare partner</p>
+  </header>
+  
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  
+  <main>
+    <section id="about">
+      <h2>About Us</h2>
+      <p>VitaOak Pharmacy is committed to providing safe, reliable, and personalized healthcare services to our community. We work closely with licensed pharmacists to ensure our patients receive the best care and advice for their health needs.</p>
+    </section>
+    
+    <section id="services" class="services">
+      <h2>Our Services</h2>
+      <ul>
+        <li>Prescription filling and verification</li>
+        <li>Medication counseling and support</li>
+        <li>OTC product advice and sales</li>
+        <li>Inventory management and ordering</li>
+        <li>Vaccination and immunization guidance</li>
+      </ul>
+    </section>
+    
+    <section id="contact" class="contact">
+      <h2>Contact Us</h2>
+      <p>Address: 123 Main Street, Thunder Bay, ON</p>
+      <p>Phone: (555) 123-4567</p>
+      <p>Email: info@vitaoakpharmacy.com</p>
+    </section>
+  </main>
+  
+  <footer>
+    &copy; 2025 VitaOak Pharmacy. All rights reserved.
+  </footer>
+</body>
+</html>
